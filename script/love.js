@@ -5,7 +5,7 @@ canvas.style.width = `${canvas.width}px`;
 canvas.style.height = `${canvas.height}px`;
 
 const context = canvas.getContext("2d");
-context.translate(canvas.width / 2, canvas.height / 2);
+context.translate(canvas.width / 2, canvas.height / 2 - 20);
 context.scale(1, -1);
 context.moveTo(0, 0);
 
@@ -140,7 +140,7 @@ function sdata() {
 		context.font = "32px 'Pacifico', cursive";
 		context.fillStyle = "#ea80b0";
 		context.textAlign = "center";
-		context.fillText("Chạy đâu cho thoát, vào tim anh rồi nè ", 0, canvas.height / 2 - 50);
+		context.fillText("Chạy đâu cho thoát, vào tim anh rồi nè ", 0, canvas.height / 2);
 		
 		context.restore(); 
 		requestAnimationFrame(animate);
