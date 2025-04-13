@@ -142,7 +142,7 @@ function sdata() {
 		context.textAlign = "center";
 		context.fillText("Chạy đâu cho thoát, vào tim anh rồi nè ", 0, canvas.height / 2);
 
-		context.fillText("Minh Thư ", 0, canvas.height / 20);
+		context.fillText("Tâm Đoan ", 0, canvas.height / 20);
 
 		
 		context.restore(); 
